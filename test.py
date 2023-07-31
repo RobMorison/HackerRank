@@ -78,9 +78,18 @@
 # is_leap(2100)
 
 
-s = 'hello openGeNus'
-t = s.title()
+# s = 'hello openGeNus'
+# t = s.title()
 
-print(t)
+# print(t)
 
+x = 1
+y = 1
+z = 2
+n =3
+
+if [x + y + z] == n:
+    print('hello')
+else:
+    print('nope')
     
