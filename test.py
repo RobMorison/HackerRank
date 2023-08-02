@@ -83,13 +83,28 @@
 
 # print(t)
 
-x = 1
-y = 1
-z = 2
-n =3
+# x = 1
+# y = 1
+# z = 2
+# n =3
 
-if [x + y + z] == n:
-    print('hello')
-else:
-    print('nope')
-    
+# if [x + y + z] == n:
+#     print('hello')
+# else:
+#     print('nope')
+
+N = []
+
+N.insert(0, 5)
+N.insert(1, 10)
+N.insert(0, 6)
+print(N)
+N.remove(6)
+N.append(9)
+N.append(1)
+N.sort()
+print(N)
+N.pop(-1)
+N.reverse()
+print(N)
+ 
