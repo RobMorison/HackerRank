@@ -144,3 +144,6 @@ Query the two cities in STATION with the shortest and longest CITY names, as wel
 If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically.
     SELECT CITY, LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY), CITY LIMIT 1;
     SELECT CITY, LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY) DESC LIMIT 1;
+
+Query the list of CITY names from STATION that do not end with vowels. Your result cannot contain duplicates.
+    SELECT DISTINCT CITY FROM STATION WHERE RIGHT (CITY,1) NOT IN ('a','e','i','o','u');
